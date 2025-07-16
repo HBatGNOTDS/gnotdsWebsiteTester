@@ -3,7 +3,7 @@
 Die Installationsanleitung für den WEC im offiziellen Repo beschränkt sich auf Linux-Systeme und ist nicht 1:1 auf Windows anwendbar. Hier ist die angepasste Installationsanleitung.
 
 #### 0. Dieses Repo herunterladen
-* Am besten das gesamte Repo als ```.zip``` herunterladen. Dann sind alle notwendigen Dateien gleich auf dem Gerät.
+* Dieses Repo als ```.zip``` herunterladen.
 
 ## Abhängigkeiten installieren
 
@@ -24,10 +24,11 @@ Die Installationsanleitung für den WEC im offiziellen Repo beschränkt sich auf
 
 #### 4. EDPS dem Nodepackage hinzufügen
 * im Ordner ```C:\Users\<Username>\``` muss die Datei ```.npmrc``` abgelegt werden. 
+* Die Datei findet sich im heruntergeladenen Zip dieses Repos.
 * Sollte diese Datei noch nicht dort sein, einfach die Datei aus diesem Repo herunterladen. Achtung: Nicht als ```.txt```!
 
 #### 5. WEC installieren
-* folgenden Befehl im Terminal ausführen: 
+* folgenden Befehl als Nutzer, nicht als Admin, im Terminal ausführen: 
 ```bash
 npm install --global @EDPS/website-evidence-collector
 ```
@@ -52,3 +53,4 @@ website-evidence-collector http://www.gnotds.de --overwrite
 https://www.google.de
 ```
 * das Ergebnis wird im Ordner ```\output\``` abgelegt. Der Ordner wird in dem Ordner erzeugt, in dem auch die Datei ```run-wec.bat``` liegt, also z.B. auf dem Desktop.
+* Hinweis: Da der Ordner ```\output``` bis zum erstmaligen Ausführen der ```run-wec.bat``` noch nicht existierte wird jetzt ein Explorer-Fenster mit dem Ordner "Eigene Dokumente" angezeigt. Bei jedem weiteren Durchlauf wird der Ordner ```\output``` mit den Ergebnissen angezeigt werden.
