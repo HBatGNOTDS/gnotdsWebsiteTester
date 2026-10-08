@@ -6,6 +6,9 @@
 
 
 @echo off
+::Ins Verzeichnis dieser Datei wechseln, egal wie das Skript gestartet wurde
+::(Doppelklick setzt das automatisch, Start ueber die Windows-Suche z.B. nicht)
+cd /d "%~dp0"
 echo ======================================================================================================================
 echo.
 echo.
