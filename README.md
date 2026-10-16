@@ -4,8 +4,8 @@ Unser Tool zum Testen von Webseiten. Es bietet ein zusätzliches Frontend für d
 
 ## Hinweise für den Nutzer ##
 
-* Eigentlich erklärt unser Skript alle Einzelschritte. Aber es sollte trotzdem erwähnt sein, dass der Webseite Evidence Collector die Ergebnisse immer im selben Ordner `\output` ablegt. **Lasse ich das Skript erneut laufen, werden alte Ergebnisse überschrieben.** Möchte man also mehrere Webseiten nacheinander prüfen, muss man die Ergebnisse (z.B. die Datei `inspection.pdf`) immer erst manuell aus dem Ordner kopieren.
-* das bedeutet auch, dass zuerst alte Testdateien zu sehen sind, wenn der `\output`-Ordner von unserem Webseitentestskript göffnet wird. **Bevor du Dateien öffnest also erst warten bis der WEC durchgelaufen ist und sich das Terminal-Fenster geschlossen hat!**
+* Eigentlich erklärt unser Skript alle Einzelschritte. Aber es sollte trotzdem erwähnt sein, dass der Webseite Evidence Collector die Ergebnisse immer in den selben Ordnern `\output` und `\output-with-cookies` ablegt. **Lasse ich das Skript erneut laufen, werden alte Ergebnisse überschrieben.** Möchte man also mehrere Webseiten nacheinander prüfen, muss man die Ergebnisse (z.B. die Datei `inspection.json`) immer erst manuell aus dem Ordner kopieren.
+* Nach dem Durchlaufen des Skriptes die entsprechenden Dateien im Odoo hochladen.
 * Sollten Fehler beim Durchlaufen des WEC geworfen werden, kann man sich die gesamte Konsolenausgabe nach Durchlaufen des Programms anzeigen lassen, da im `\output`-Ordner die Datei `inspection.log` angelegt wird.
 
 ## Administration
@@ -26,9 +26,4 @@ Dies sind nur die Quellen, aber eigentlich benötigt man diese Internetseiten ga
 
 ### Planned Features ##
 
-* Derzeit sorgt der Website Evidence Collector noch dafür, dass das Terminal-Fenster nach Durchlauf des WEC geschlossen wird. Soll in Zukunft aber noch Dinge tun, bevor er schließt.
-* Der Befehl zum Öffnen des Output-Ordners wird nicht ausgeführt, wenn der Befehl am Ende des Skripts steht, da das Terminal-Fenster sofort nach Abschluss des WEC geschlossen wird. Dirty workaround ist bisher, dass der Ziel-Ordner erst geöffnet wird und danach das Programm startet.
-* Wichtigstes Feature: ASCII-Art
 * Weil Windows doof ist musste das Ganze erstmal als Batch-Datei erstellt werden. Nice-to-have wäre ein Python-Programm, das ein wirkliches Frontend anbietet. (unnötig, wenn das Skript später aus anderer Software heraus ausgeführt werden soll)
-* Parameter an WEC mitgeben, sodass alte Ergebnisse nicht mehr überschrieben werden.
-
