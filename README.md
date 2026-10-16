@@ -14,7 +14,9 @@ Die Installationsanleitung findet sich in [dieser Datei](install.md)
 ### Website Evidece Collector Quellen
 Es gibt mehrere Seiten, auf denen man den WEC finden kann.
 
-* Die zentrale Stelle (zu bevorzugen) ist das [Öffentliche Git auf code.europa.eu](https://code.europa.eu/EDPS/website-evidence-collector). Hier wird man immer die tagesaktuelle Version der Software finden.
+* Die zentrale Stelle ist das [Öffentliche Git auf code.europa.eu](https://code.europa.eu/EDPS/website-evidence-collector). Hier wird man immer die tagesaktuelle Version der Software finden.
+
+* Das Repo auf code.europa.eu hat allerdings einen Bug, der bei unserem Skript zu einem Fehlschlag führt. Zum Installieren also immer am besten das Tarball von T:\ nehmen, das auch in der Installationsanleitung install.md angegeben ist!
 
 * Die ["offizielle" Internetseite des Programms](https://www.edps.europa.eu/edps-inspection-software_en) beim Europäischen Datenschutzbeauftragten ist auf Englisch und hat immer nur die aktuellste Version der Software hinter dem Downloadbutton. (nicht benötigt, da wir über Befehl installieren)
 

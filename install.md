@@ -55,7 +55,7 @@ Jetzt einfach neu installieren.
 #### 2. WEC installieren
 * folgenden Befehl als Nutzer, nicht als Admin, im Terminal ausführen: 
 ```bash
-npm install --global @EDPS/website-evidence-collector
+npm install --global "T:\Programme\Website Evidence Collector\EDPS-website-evidence-collector-4.5.0.tgz" 
 ```
 * Zuschauen und staunen. (es passiert quasi gar nix)
 
