@@ -48,6 +48,7 @@ Jetzt einfach neu installieren.
 ## WEC installieren
 
 #### 1. EDPS dem Nodepackage hinzufügen
+* Die Installation sollte im Usercontext erfolgen.
 * im Ordner ```C:\Users\<Username>\``` muss die Datei ```.npmrc``` abgelegt werden. 
 * Die Datei findet sich im heruntergeladenen Zip dieses Repos.
 * Sollte diese Datei noch nicht dort sein, einfach die Datei aus diesem Repo herunterladen. Achtung: Nicht als ```.txt```!
